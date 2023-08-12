@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background: url('https://wallpapercave.com/dwp1x/wp11484839.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'VT323', sans-serif;
+    color: black;
+}
+header {
+    padding-top: 10%;
+    text-align: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 30pt;
+    text-align: center;
+    color: cyan;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+h2 {
+
+    text-align: center;
+    font-size: 10pt;
+    margin-top: -10px;
+    color: white;
+}
+p {
+    font-size: 10pt;
+    color: black;
+    display: block;
+    
+}
+.border {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 50px;
+
+}
+label {
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+input[type=number] {
+    color: black;
+    width: 97%;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+a {
+    margin-top: 10px;
+    text-outline: 2px 2px cyan;
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    color: red;
+    font-size: 10pt;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: inset;
+    
+}
+a:hover {
+    background-color: cyan;
+}
+a, .AIRDROP {
+    margin-right: 5px;
+}
+a, .DAPP {
+}
+.afoot {
+    border-style: none;
+}
+input[type=submit] {
+    margin-top: 25px;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    color: red;
+    font-size: 10pt;
+    font-weight: bold;
+    background-color: cyan;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+input[type=reset] {
+    display: inline-block;
+    width: 100px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.button-sec {
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    border-radius: 10px
+    padding: 30px;
+    margin: 10px;
+    margin-top: 20px;
+}
+footer, p{
+    color: cyan;
+    clear:both;
+    height:30px;
+    margin-top: 11%;
+    padding:5px 0;
+    width:100%;
+}
+@media (min-width: 250px) and (max-width: 480px) {
+    footer, p{
+        color: cyan;
+        clear:both;
+        height:30px;
+        margin-top: 60%;
+        padding:5px 0;
+        width:100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    footer, p{
+        color: cyan;
+        clear:both;
+        height:30px;
+        margin-top: 30%;
+        padding:5px 0;
+        width:100%;
+    }
+
+}

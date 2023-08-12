@@ -1,0 +1,127 @@
+body {
+    background: url('https://s32659.pcdn.co/wp-content/uploads/2021/12/nft-airdrop.jpg.optimal.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial';
+    color: cyan;
+
+}
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15pt;
+    color: cyan;
+    text-shadow: 2px 2px 4px white;
+}
+h3 {
+    font-style: italic;
+    font-size: 10pt;
+    margin-top: -10px;
+    color: cyan;
+}
+p {
+    font-size: 10pt;
+    color: cyan;
+    display: block;
+    
+}
+.border {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: ;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+.hasil {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 20px;
+}
+label {
+    display: block;
+    color: cyan;
+    font-weight: bold;
+}
+input[type=email] {
+    background: transparent;
+    color: cyan;
+    width: 97%;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+input[type=text] {
+    background: transparent;
+    color: cyan;
+    width: 97%;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+input[type=number] {
+    color: cyan;
+    width: 97%;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=submit] {
+    background: transparent;
+    display: inline-block;
+    width: 100px;
+    color: cyan;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    background-color: greenyellow;
+}
+input[type=reset] {
+    background: transparent;
+    display: inline-block;
+    width: 100px;
+    color: red;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+input[type=reset]:hover {
+    background-color: red;
+}
+.button-sec {
+    margin-top: 10px;
+}
+.cr {
+    font-weight: lighter;
+    text-decoration: none   ;
+    color: cyan;
+    border: 1px solid cyan;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.cr, a{
+    font-weight: bold;
+    color: cyan;
+}
